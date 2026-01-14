@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Базовые CSS-сбросы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    color: #333;
+    background-color: #381a00;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 8px;
+    margin:auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Стили заготовки от Валерчика */
+main {
+    width: 1280px;
+    margin: auto;
+}
+
+.catalog {
+    padding-top: 64px;
+    margin-bottom: 32px;
+}
+
+nav {
+    margin-bottom: 48px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.filter {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filter-icon {
+    background-color: #ff6200;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 16px 0 0 16px;
+}
+
+.filter-icon span {
+    display: block;
+}
+
+.filter-text {
+    flex: 1 0 auto;
+    font-weight: bold;
+    color: white;
+    background-color: #ff9500;
+    padding: 16px 10px;
+    border-radius: 0 16px 16px 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    width: 300px;
+    background-color: #F3FFEE;
+    border-radius: 24px;
+    border: 2px solid #333;
+}
+
+.order form {
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 24px;
+    bottom: 2px solid #333;
+    background-color: #F3FFEE;
+    padding: 60px 50px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 500px;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    background-color: #8FCF65;
+    color: white;
+    font-size: 18px;
+    justify-content: space-around;
+    -ms-flex-item-align: center;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.submit-btn {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #3B8343;
+    color: white;
+    transition: 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #543000;
+}
+
+.popular:hover{
+    transform: scale(1.3) ;
+    transition: 0.3s
+}
+
+.high:hover{
+    transform: translate(0px, -20px);
+    transition: 0.3s
+}
+
+.early:hover{
+    transform: translate(-8px, 0px);
+    transition: 0.3s
+}
+
+.light:hover{
+    transform: rotate(-180deg);
+    transition: 0.3s
+}
+
+.rare:hover{
+    transform: rotate(45deg);
+    transition: 0.3s
+}
+
+.card:hover{
+    transform:scale(1.1);
+    transition: 0.3s 
+
+}
+
+.input:focus{
+    background-color: #3B8343;
+}
+
+.gordik{
+    border-radius: 45px;
+    border-color: #FFFFFF;
+    border-width: 4px;
+    color: #FFFFFF;
+}
+
+.folilolik{
+    flex: 1 0 auto;
+    font-weight: bold;
+    color: white;
+    background-color: #ff9500;
+}
+
+.folilolik:hover{
+    transition: (0.2s);
+    background-color: #993b00;
+}

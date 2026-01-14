@@ -1,0 +1,13 @@
+
+<section class="order">
+            <form id="order-form" action="">
+                <div class="field">
+                    <input class="input" name="fullname" id="fullname" type="text" placeholder="Фамилия и имя">
+                    <input class="input" name="phone_number" id="phone_number" type="text" placeholder="Номер телефона">
+                    <input class="input" name="email_adress" id="email_adress" type="text" placeholder="Электронная почта">
+                    <label for="agree">Не звонить мне</label>
+                    <input type="checkbox" name = "agree" id = "agree" checked>                    
+                </div>
+                <input type="submit" value="Заказать" class="submit-btn">
+            </form>
+        </section>
