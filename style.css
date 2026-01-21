@@ -180,7 +180,7 @@ nav ul {
 }
 
 .input:focus{
-    background-color: #3B8343;
+    background-color: #3c2400;
 }
 
 .gordik{
@@ -246,4 +246,59 @@ nav ul {
 .kartochka:active{
     background-color: #776b00;
     transition:0.3s
+}
+
+.bg1{
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    transform: rotate(30deg) scale(1.2);
+    bottom: 5px;
+    right: 0px;
+    filter: blur(5px);
+}
+.bg2{
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    transform: rotate(40deg) scale(1.1);
+    top: 530px;
+    left: -180px;
+    filter: blur(5px);
+}
+.bg3{
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    transform: rotate(40deg) scale(1.4);
+    top: 30px;
+    left: 350px;
+    filter: blur(5px);
+}
+.bg4{
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    transform: rotate(30deg) scale(1.5);
+    top: 49px;
+    right: 60px;
+    filter: blur(5px);
+}
+.bg5{
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    transform: rotate(30deg) scale(1.6);
+    bottom: 159px;
+    left: -150px;
+    filter: blur(5px);
+}
+.bg6{
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    transform: rotate(30deg) scale(1.2);
+    top: 50px;
+    left: -150px;
+    filter: blur(5px);
 }
