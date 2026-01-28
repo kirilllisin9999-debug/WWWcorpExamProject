@@ -248,7 +248,7 @@ nav ul {
     transition:0.3s
 }
 
-.bg1{
+.bg_bg1{
     position: absolute;
     z-index: -1;
     width: 300px;
@@ -257,7 +257,7 @@ nav ul {
     right: 0px;
     filter: blur(5px);
 }
-.bg2{
+.bg_bg2{
     position: absolute;
     z-index: -1;
     width: 300px;
@@ -266,7 +266,7 @@ nav ul {
     left: -180px;
     filter: blur(5px);
 }
-.bg3{
+.bg_bg3{
     position: absolute;
     z-index: -1;
     width: 300px;
@@ -275,7 +275,7 @@ nav ul {
     left: 350px;
     filter: blur(5px);
 }
-.bg4{
+.bg_bg4{
     position: absolute;
     z-index: -1;
     width: 300px;
@@ -284,7 +284,7 @@ nav ul {
     right: 60px;
     filter: blur(5px);
 }
-.bg5{
+.bg_bg5{
     position: absolute;
     z-index: -1;
     width: 300px;
@@ -293,7 +293,7 @@ nav ul {
     left: -150px;
     filter: blur(5px);
 }
-.bg6{
+.bg_bg6{
     position: absolute;
     z-index: -1;
     width: 300px;
